@@ -189,7 +189,7 @@ for ( let bottle = 99; bottle > 0 ; bottle-- ) {
 // Example 2: Input: let N = 3
 
 // Output:
- 
+
 // ***
 // ***
 // ***
