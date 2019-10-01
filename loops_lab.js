@@ -137,7 +137,19 @@ while(y <= 100){
 
 // Problem Seven
 // Modify your program to log "FizzBuzz", for numbers that are divisible by both 3 and 5 (still log "Fizz" or "Buzz" for numbers divisible by only one of those).
-
+let z = 1;
+while(z <= 100){
+    if ( z % 3 === 0 && z % 5 === 0 ){
+        console.log("FizzBuzz");
+    } else if( z % 3 === 0){
+        console.log("Fizz");
+    } else if( z % 5 === 0){
+        console.log("Buzz")
+    } else{
+        console.log(z);
+    }
+    z++;
+}
 
 // Problem Eight
 // Write a program that would log the lyrics of the song 99 Bottles of Beer. This is the first verse of the song:
