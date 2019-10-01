@@ -166,6 +166,17 @@ while(z <= 100){
 
 // 1 bottle of beer on the wall, 1 bottle of beer.
 // Take one down, pass it around, No more bottle of beer on the wall.
+
+for ( let bottle = 99; bottle > 0 ; bottle-- ) {
+    if ( bottle > 2 ){
+        console.log( bottle + " bottles of beer on the wall, " + bottle + " bottles of beer. Take one down, pass it around, "+ (bottle-1)+" bottles of beer on the wall.")
+    } else if ( bottle === 2){
+        console.log( bottle + " bottles of beer on the wall, " + bottle + " bottles of beer. Take one down, pass it around, "+ (bottle-1)+" bottle of beer on the wall.")
+    } else {
+        console.log( bottle + " bottle of beer on the wall, " + bottle + " bottle of beer. Take one down, pass it around, no more bottles of beer on the wall.")
+    }
+ }
+
 // Problem Nine
 // Given an integer N draw a square of N x N asterisks. Look at the examples.
 
