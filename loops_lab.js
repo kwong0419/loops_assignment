@@ -116,11 +116,24 @@ for (let k = 5; k <= 100; k+=10){
 // }
 
 // // Your explanation here
-
+   // The code will run indefinitely because the condition i is incremented by 1 and therefore
+   // i will always be greater than 3 and the loop will be continuous.
 
 // Problem Six
-// Write a loop that uses console.log to log all the numbers from 1 to 100, with two exceptions. For numbers divisible by 3, log "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), log "Buzz" instead.
-
+// Write a loop that uses console.log to log all the numbers from 1 to 100, with two exceptions. For numbers divisible by 3, 
+// log "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), log "Buzz" instead.
+let y = 1;
+while(y <= 100){
+    if ( y % 3 === 0){
+        console.log("Fizz");
+    } else if( y % 5 === 0){
+        console.log("Buzz")
+    }
+    else{
+        console.log(y);
+    }
+    y++;
+}
 
 // Problem Seven
 // Modify your program to log "FizzBuzz", for numbers that are divisible by both 3 and 5 (still log "Fizz" or "Buzz" for numbers divisible by only one of those).
