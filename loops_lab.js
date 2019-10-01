@@ -145,7 +145,7 @@ while(z <= 100){
         console.log("Fizz");
     } else if( z % 5 === 0){
         console.log("Buzz")
-    } else{ 
+    } else{
         console.log(z);
     }
     z++;
