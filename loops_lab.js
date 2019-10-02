@@ -195,7 +195,29 @@ for ( let bottle = 99; bottle > 0 ; bottle-- ) {
 // ***
 //  Hint 1
 //  Hint 2
+let N = 2;
+for(let i = 1; i <= N; i++){
+    console.log("*");
+}
+
 // Problem Ten
 // If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
  
 // Find the sum of all the multiples of 3 or 5 below 1000.
+// let sum1=0;
+// for(let i = 0; i <= 1000; i++){
+//     if(i % 3 === 0 && i % 5 === 0){
+//         sum1 = sum1 + i;
+//     }
+// }
+// console.log("Sum1 = " + sum1);
+
+let j = 0;
+let sum2 = 0;
+while(j <= 1000){
+    if(j % 3 === 0 && j % 5 === 0){
+        sum2 = sum2 + j;
+    }
+    j++;
+}
+console.log("Sum is " + sum2);
