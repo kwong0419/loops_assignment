@@ -195,10 +195,13 @@ for ( let bottle = 99; bottle > 0 ; bottle-- ) {
 // ***
 //  Hint 1
 //  Hint 2
-let N = 4;
-let asterisk = "*";
-for (let i = 1; i <= N; i++){
-    console.log(asterisk.repeat(N));
+let N1 = 4, N2 = 4;
+let asterisk = "";
+for (let outter = 0; N1 > outter; N1--){
+    for( let inner = 0; N2 > inner; N2--){
+        asterisk += "*";
+    }
+    console.log(asterisk);
 }
 
 // Problem Ten
