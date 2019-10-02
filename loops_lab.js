@@ -196,17 +196,10 @@ for ( let bottle = 99; bottle > 0 ; bottle-- ) {
 //  Hint 1
 //  Hint 2
 let N = 4;
-let askt = "";
-
-for(let outter = 0; outter < N; outter++){
-    for(let inner = 0; inner < N; inner++){
-        askt += "*";
-    }
+let asterisk = "*";
+for (let i = 1; i <= N; i++){
+    console.log(asterisk.repeat(N));
 }
-console.log(askt);
-
-
-
 
 // Problem Ten
 // If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
