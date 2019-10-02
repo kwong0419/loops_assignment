@@ -206,7 +206,7 @@ for(let i = 1; i <= N; i++){
 // Find the sum of all the multiples of 3 or 5 below 1000.
 // let sum1=0;
 // for(let i = 0; i <= 1000; i++){
-//     if(i % 3 === 0 && i % 5 === 0){
+//     if(i % 3 === 0 || i % 5 === 0){
 //         sum1 = sum1 + i;
 //     }
 // }
@@ -215,7 +215,7 @@ for(let i = 1; i <= N; i++){
 let j = 0;
 let sum2 = 0;
 while(j <= 1000){
-    if(j % 3 === 0 && j % 5 === 0){
+    if(j % 3 === 0 || j % 5 === 0){
         sum2 = sum2 + j;
     }
     j++;
